@@ -1,0 +1,90 @@
+.projects {
+    padding-top: 74px !important;
+    position: relative;
+}
+
+
+
+.project__cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project__cards .webpage {
+    width: 327px;
+    height: 200px;
+    border-bottom: 1px solid var(--gray)
+}
+
+
+.project__cards-item {
+    width: 330px;
+    height: 400px;
+    transition: scale .5s ease-in-out;
+    border: 1px solid var(--gray);
+}
+
+.project__cards-item:hover {
+    scale: 1.1;
+}
+
+.webpage-subtitle {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.card__text {
+    border-top: 1px solid var(--gray);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card__text .project__cards-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white);
+}
+
+.card__text .project__cards-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.project__cards-btn {
+    border: 1px solid var(--primary);
+    padding: 8px 16px;
+    max-width: max-content;
+    height: 37px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.disabled{
+    pointer-events: none; 
+    color: gray; 
+    text-decoration: none;
+    user-select: none;
+}
+.not_allowed:hover{
+    cursor: not-allowed;
+}
+
+.dots{
+    position: absolute;
+    top: 280px;
+    left: -430px;
+}
+
+.half__rectangle{
+    position: absolute;
+    bottom: 200px;
+    right: -380px;
+}

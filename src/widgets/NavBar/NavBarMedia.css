@@ -1,0 +1,50 @@
+@media screen and (max-width:1240px) {
+    li,h2{
+
+        font-size: 15px;
+    }
+    .nav{
+        justify-content: center;
+        gap: 10px;
+    }
+    .navbar__contacts{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .navbar__links li,select{
+        display: none;
+    }
+    /* .navbar__links select{
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        font-size: 18px;
+    }
+    .navbar__links select option{
+        font-size: 15px;
+    } */
+    .navbar__contacts{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        min-height: 0vh;
+    }
+
+    .nav .navbar__logo-button{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 999;
+    }
+
+    .burger__btn{
+        display: block;
+    }
+
+}

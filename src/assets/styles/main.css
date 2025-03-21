@@ -1,0 +1,15 @@
+@import url('./common.css');
+@import url('./fonts.css');
+@import url('./media.css');
+
+
+:root {
+    --text-color:#ffffff;
+    --nav-bg:#323232;
+	--primary: #c778dd;
+	--gray: #9197a3;
+	--background: #282c33;
+	--white: #fff;
+	--icon-color: invert(0%);
+	--navBG:none
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width:768px) {
+    .footer__content{
+        padding: 0;
+    }
+
+    .footer__mail{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .footer__media h3{
+       text-align: center;
+    }
+}
+

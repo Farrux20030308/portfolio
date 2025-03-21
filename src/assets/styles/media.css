@@ -1,0 +1,11 @@
+@media screen and (max-width:768px) {
+    .section__title img{
+        display: none;
+    }
+
+    .main{
+        margin-top: 0 !important;
+    }
+
+    
+}
